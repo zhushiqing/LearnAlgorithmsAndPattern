@@ -4,13 +4,12 @@ import org.junit.Test;
 
 public class QuickSort {
 	/**
-	 * 快排，平均时间复杂度为O(nlog(n))，最坏情况下为O(n^2)
 	 * @param num
 	 * @param low
 	 * @param high
 	 * @return
 	 */
-	//获取中值
+	//
 	public int getMid(int[] num , int low , int high){
 		int temp = num[low];
 	
